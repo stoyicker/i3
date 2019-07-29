@@ -1,0 +1,83 @@
+##############################################
+# Settings
+##############################################
+background yes
+use_xft yes
+xftfont Source Code Pro Medium:size=11
+xftalpha 1
+update_interval 999999
+total_run_times 0
+own_window yes
+own_window_class Conky
+own_window_transparent no
+own_window_type override
+own_window_colour 002b36
+##############################################
+# Compositing tips:
+# Conky can play strangely when used with
+# different compositors. I have found the
+# following to work well, but your mileage
+# may vary. Comment/uncomment to suit.
+##############################################
+## no compositor
+#own_window_type override
+#own_window_argb_visual no
+
+## xcompmgr
+#own_window_type override
+#own_window_argb_visual yes
+
+## cairo-compmgr
+#own_window_type desktop
+#own_window_argb_visual yes
+##############################################
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 200 200
+maximum_width 640
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color 93a1a1
+default_shade_color 073642
+default_outline_color ffffff
+alignment top_right
+gap_x 12
+gap_y 12
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale yes #for temp output with an A
+
+##############################################
+#  Output
+##############################################
+TEXT
+Super+Enter$alignr Launch Terminal
+Super+Shift+Enter$alignr Launch Browser
+Super+Space$alignr Run App Dialog
+
+Super+1$alignr Go to Workspace 1
+...
+Super+9$alignr Go to Workspace 9
+Super+Tab$alignr Go to Next Workspace
+Super+Shift+Tab$alignr Go to Previous Workspace
+Super+Shift+1$alignr Move Active Window to WS 1
+...
+Super+Shift+9$alignr Move Active Window to WS 9
+
+Super+[↑]/[↓]/[←]/[→]$alignr Change Window Focus
+Super+Shift+[↑]/[↓]/[←]/[→]$alignr Move Window
+
+Super+v$alignr Make This Window New Vertical Container
+Super+h$alignr Make This Window New Horizontal Container
+Super+w$alignr Set Layout Tabbed
+Super+f$alignr Toggle Focused Window Fullscreen
+Super+Shift+f$alignr Toggle Focused Window Floating
+
+Super+Shift+s$alignr Shutdown
+Super+Shift+r$alignr Reboot
+Super+Shift+e$alignr Lock
+
+Super+?$alignr Toggle This Window
