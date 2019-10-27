@@ -41,7 +41,7 @@ bindsym $mod+Shift+Return exec /usr/bin/sensible-browser
 bindsym $mod+Shift+q kill
 
 # rofi app and window launchers
-bindsym $mod+space exec rofi -show drun --fullscreen -theme onedark --show-icons
+bindsym $mod+space exec rofi -show drun -fullscreen -theme onedark -show-icons
 
 # change focus
 bindsym $mod+Left focus left
