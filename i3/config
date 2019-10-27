@@ -128,7 +128,7 @@ mouse_warping none
 
 # Configure the bar
 bar {
-  font pango:Source Code Pro Medium 13
+  font pango:Source Code Pro Medium 11
   separator_symbol " "
   status_command i3blocks
   tray_output none
