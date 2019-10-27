@@ -58,9 +58,6 @@ bindsym $mod+Shift+Right move right
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
-# show/hide keybindings
-bindsym $mod+Shift+question exec /usr/bin/conky-toggle.sh
-
 # toggle tiling / floating
 bindsym $mod+Shift+f floating toggle
 
