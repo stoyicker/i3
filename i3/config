@@ -42,6 +42,7 @@ bindsym $mod+Shift+q kill
 
 # rofi app and window launchers
 bindsym $mod+space exec rofi -show drun -fullscreen -theme onedark -show-icons
+bindsym $mod+shift+space exec SUDO_ASKPASS=~/bin/askpass-rofi rofi -show drun -fullscreen -theme onedark -show-icons -run-command "sudo -A {cmd}"
 
 # change focus
 bindsym $mod+Left focus left
