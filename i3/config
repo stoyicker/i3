@@ -124,9 +124,6 @@ popup_during_fullscreen leave_fullscreen
 # Windows focused by i3 gain mouse focus
 focus_follows_mouse yes
 
-# Mouse is not moved by i3
-mouse_warping none
-
 # Configure the bar
 bar {
   font pango:Source Code Pro Medium 11
