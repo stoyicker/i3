@@ -119,7 +119,7 @@ client.unfocused        #002b36 #073642 #839496 #073642
 client.urgent           #002b36 #dc322f #fdf6e3 #002b36
 
 # Enable popup during fullscreen
-popup_during_fullscreen smart
+popup_during_fullscreen leave_fullscreen
 
 # Windows focused by i3 gain mouse focus
 focus_follows_mouse yes
