@@ -98,8 +98,12 @@ bindsym $mod+Shift+e exit
 bindsym $mod+l exec i3lock
 
 # shut down
-bindsym $mod+Shift+s exec sudo poweroff
+bindsym $mod+Shift+p exec sudo poweroff
 bindsym $mod+Shift+r exec sudo reboot
+
+# scratchpad
+bindsym $mod+s move scratchpad
+bindsym $mod+Shift+s scratchpad show
 
 # Layouts
 bindsym $mod+h split horizontal
