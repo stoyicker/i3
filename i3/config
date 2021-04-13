@@ -111,10 +111,10 @@ bindsym $mod+v split vertical
 bindsym $mod+w layout tabbed
 
 # Window Border color
-client.focused          #ff00ff #586e75 #fdf6e3 #268bd2
-client.focused_inactive #ff0000 #073642 #839496 #073642
-client.unfocused        #002b36 #073642 #839496 #073642
-client.urgent           #002b36 #dc322f #fdf6e3 #002b36
+client.focused          #ffffff #ff0000 #ffffff
+client.focused_inactive #000000 #ff0000 #ffffff
+client.unfocused        #000000 #000000 #ffffff
+client.urgent           #000000 #ff0000 #00ff00
 
 # Windows focused by i3 gain mouse focus
 focus_follows_mouse yes
