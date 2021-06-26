@@ -119,6 +119,12 @@ client.urgent           #000000 #ff0000 #00ff00
 # Windows focused by i3 gain mouse focus
 focus_follows_mouse yes
 
+# Window resizing
+bindsym $mod+Ctrl+Right resize shrink width 1 px or 1 ppt
+bindsym $mod+Ctrl+Up resize grow height 1 px or 1 ppt
+bindsym $mod+Ctrl+Down resize shrink height 1 px or 1 ppt
+bindsym $mod+Ctrl+Left resize grow width 1 px or 1 ppt
+
 # Configure the bar
 bar {
   font pango:Source Code Pro Medium 11
